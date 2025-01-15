@@ -1,0 +1,30 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 10px;
+  background-color: rgba(31, 32, 32, 0.452);
+  color: rgb(8, 1, 1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item{
+  margin-left: 50px;
+  font-size: large ;
+}
+
+.nav-logo{
+  width: 50px;
+}
